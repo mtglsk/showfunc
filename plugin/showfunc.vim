@@ -1,4 +1,4 @@
-" ShowFunc {{{
+" ShowFunc
 function! ShowFunctions()
   if     &filetype ==# 'bash'
     return '\m\C^[\t ]*\(function[\t ]\+\)\?[_a-zA-Z][_a-zA-Z0-9]\+[\t ]*\(([\t ]*)\)\?[\t ]*\n*{'
