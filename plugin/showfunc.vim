@@ -75,4 +75,4 @@ command! ShowFunc :silent execute 'g/' . ShowFunctions() . '/'
       \| vimgrep // %
 
 command! ShowFuncAll :cexpr [] | silent execute 'g/' . ShowFunctions() . '/'
-      \| bufdo vimgrepadd // %
+      \| silent bufdo vimgrepadd // %
